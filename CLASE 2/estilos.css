@@ -1,0 +1,42 @@
+/* Font desde google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,700;1,300;1,400&display=swap');
+
+/* Selector general */
+*{
+    font-family: 'Open Sans', sans-serif;
+    color: chocolate;
+    background-color: #038cfc;
+}
+/* SELECTORES POR ETIQUETA */
+h1{
+    color: black;
+    font-weight: bold;
+}
+li{
+    font-size: 40px;
+    font-style: italic;
+}
+p{
+    font-size: 25px;
+    color: blue;
+    text-align: center;
+}
+a{
+    color: green;
+    text-decoration: none;
+}
+/* Selector por clase */
+.foto_futbolista{
+    height: 300px;
+}
+
+
+/* Selector por ID */
+#contacto {
+    background-color: brown;
+}
+
+/* Selectores avanzados */
+#futbolistas p{
+    color: blueviolet;
+}
