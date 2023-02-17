@@ -1,0 +1,52 @@
+body{
+    background-image: url('https://www.estadioazteca.com.mx/wp-content/uploads/2022/04/B86O9066-scaled.jpg');
+    background-size: cover;
+}
+#first{
+    height: 200px;
+    border: red solid 2px;
+    background-color: orange;
+    margin: 40px 20px 10px 35px ;
+    /* padding: 40px 20px; */
+    display: block;
+}
+#second{
+    height: 200px;
+    border: black solid 2px;
+    background-color: grey;
+    margin-top: 20px; 
+    margin-bottom: 20px;
+    margin-right: 10px;
+    margin-left: 10px;
+    
+}
+#second h3{
+    text-align: center;
+}
+#third{
+    height: 200px;
+    border: green solid 2px;
+    background-color: aqua;
+    padding-top: 60px;
+}
+#third ul{
+    float: right;
+}
+#third li{
+    display: inline;
+    padding: 0 30px;
+}
+.inside{
+    background-color: brown;
+    height: 50px;
+    width: 400px;
+    margin: 0 auto;
+    display: inline-block;
+}
+
+
+
+
+#fotos img{
+    height: 150px;
+}
