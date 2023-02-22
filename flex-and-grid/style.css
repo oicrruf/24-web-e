@@ -1,0 +1,75 @@
+/* https://www.homemade-gifts-made-easy.com/image-files/february-calendar-2023-printable-blank-600x464.png */
+* {
+  /* box-sizing: border-box;
+  outline: 1px solid limegreen !important; */
+  margin: 0;
+  padding: 0;
+}
+
+#calendar {
+  padding: 100px;
+}
+#month {
+  /* height: 100%; */
+  border: 1px solid black;
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+}
+.title {
+  display: flex;
+  /* flex-direction: column; */
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+}
+.days {
+  display: flex;
+  justify-content: space-around;
+  border: 1px solid black;
+  border-left: none;
+  border-right: none;
+}
+.days div {
+  width: 100%;
+  padding: 8px;
+  text-align: center;
+  border-right: 1px solid black;
+}
+.days div:last-child {
+  border-right: none;
+}
+.date {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+.date div.week {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  border-bottom: 1px solid black;
+}
+.date div.week:last-child {
+  border-bottom: none;
+}
+.date div.week div {
+  display: flex;
+  justify-content: flex-end;
+  padding: 5px;
+  height: 100px;
+  border-right: 1px solid black;
+}
+.date div.week div:last-child {
+  border-right: none;
+}
+
+/* .week div:last-child {
+  background-color: red;
+}
+
+.week div:first-child {
+  background-color: green;
+}
+.week div:nth-child(5) {
+  background-color: yellowgreen;
+} */
